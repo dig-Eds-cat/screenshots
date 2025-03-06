@@ -1,0 +1,6 @@
+black
+flake8
+playwright
+requests
+Pillow
+pandas
