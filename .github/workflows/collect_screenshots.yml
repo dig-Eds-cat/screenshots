@@ -26,7 +26,7 @@ jobs:
         run: playwright install
 
       - name: Run checker
-        run: scripts/collect_screenshots.py
+        run: python scripts/collect_screenshots.py
 
       - name: Commit data
         uses: stefanzweifel/git-auto-commit-action@v5
