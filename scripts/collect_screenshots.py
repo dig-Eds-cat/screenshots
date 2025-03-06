@@ -15,7 +15,7 @@ df = pd.read_csv("https://raw.githubusercontent.com/dig-Eds-cat/digEds_cat/refs/
 print("fetching images")
 with sync_playwright() as p:
     browser = p.firefox.launch()
-    for i, row in df.head(20).iterrows():
+    for i, row in df.iterrows():
         if row["Current availability"] == "yes":
             url = row["URL"]
             name = f'{row["id"]}.png'
