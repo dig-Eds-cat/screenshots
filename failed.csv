@@ -19,10 +19,6 @@ https://acdh.oeaw.ac.at/abacus/,"Page.goto: Timeout 10000ms exceeded.
 Call log:
   - navigating to ""https://acdh.oeaw.ac.at/abacus/"", waiting until ""load""
 "
-http://magyar-irodalom.elte.hu/totnes/eotvos/,"Page.goto: Timeout 10000ms exceeded.
-Call log:
-  - navigating to ""http://magyar-irodalom.elte.hu/totnes/eotvos/"", waiting until ""load""
-"
 http://magyar-irodalom.elte.hu/gepesk/wathay/,"Page.goto: Timeout 10000ms exceeded.
 Call log:
   - navigating to ""http://magyar-irodalom.elte.hu/gepesk/wathay/"", waiting until ""load""
@@ -30,8 +26,4 @@ Call log:
 http://magyar-irodalom.elte.hu/gepesk/zrinyi/,"Page.goto: Timeout 10000ms exceeded.
 Call log:
   - navigating to ""http://magyar-irodalom.elte.hu/gepesk/zrinyi/"", waiting until ""load""
-"
-http://sermones.elte.hu/erdy/,"Page.goto: Timeout 10000ms exceeded.
-Call log:
-  - navigating to ""http://sermones.elte.hu/erdy/"", waiting until ""load""
 "
