@@ -1,16 +1,16 @@
 import glob
 import os
 import pandas as pd
-import shutil
 from playwright.sync_api import sync_playwright
 from PIL import Image
 
 
 out_dir = "screenshots"
-shutil.rmtree(out_dir, ignore_errors=True)
 os.makedirs(out_dir, exist_ok=True)
 
 df = pd.read_csv("https://raw.githubusercontent.com/dig-Eds-cat/digEds_cat/refs/heads/main/digEds_cat.csv")
+
+MAX_TIMEOUT = 10000
 
 print("fetching images")
 failed = []
@@ -21,9 +21,14 @@ with sync_playwright() as p:
             url = row["URL"]
             name = f'{row["id"]}.png'
             f_name = os.path.join(out_dir, name)
+            if os.path.exists(f_name):
+                print(f"skipping {f_name}, already exists")
+                continue
             print(f"saving screenshot from {url} as {f_name}")
             try:
                 page = browser.new_page(viewport={"width": 1200, "height": 800})
+                page.set_default_timeout(MAX_TIMEOUT)
+                page.set_default_navigation_timeout(MAX_TIMEOUT)
                 page.goto(url)
                 page.screenshot(path=f_name)
             except Exception as e:
