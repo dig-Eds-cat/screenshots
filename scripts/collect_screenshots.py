@@ -36,6 +36,17 @@ with sync_playwright() as p:
                     "url": url,
                     "error": e
                 })
+                continue
+            with Image.open(f_name) as my_image:
+                image_height = my_image.height
+                image_width = my_image.width
+                print(
+                    "The original size of Image is: ",
+                    round(len(my_image.fp.read()) / 1024, 2),
+                    "KB",
+                )
+                my_image = my_image.resize((image_width, image_height), Image.NEAREST)
+                my_image.save(f_name)
     browser.close()
 df = pd.DataFrame(failed)
 df.to_csv("failed.csv", index=False)
