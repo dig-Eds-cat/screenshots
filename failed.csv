@@ -1,0 +1,37 @@
+url,error
+http://www.livesandletters.ac.uk/cell/Hooke/Hooke.html,"Page.goto: Timeout 10000ms exceeded.
+Call log:
+  - navigating to ""http://www.livesandletters.ac.uk/cell/Hooke/Hooke.html"", waiting until ""load""
+"
+http://www.math.uni-augsburg.de/stochastik/llull/,"Page.goto: Timeout 10000ms exceeded.
+Call log:
+  - navigating to ""http://www.math.uni-augsburg.de/stochastik/llull/"", waiting until ""load""
+"
+http://ocp.tyndale.ca/,"Page.goto: Timeout 10000ms exceeded.
+Call log:
+  - navigating to ""http://ocp.tyndale.ca/"", waiting until ""load""
+"
+http://vbd.humnet.unipi.it,"Page.goto: NS_ERROR_CONNECTION_REFUSED
+Call log:
+  - navigating to ""http://vbd.humnet.unipi.it/"", waiting until ""load""
+"
+https://acdh.oeaw.ac.at/abacus/,"Page.goto: Timeout 10000ms exceeded.
+Call log:
+  - navigating to ""https://acdh.oeaw.ac.at/abacus/"", waiting until ""load""
+"
+http://magyar-irodalom.elte.hu/totnes/eotvos/,"Page.goto: Timeout 10000ms exceeded.
+Call log:
+  - navigating to ""http://magyar-irodalom.elte.hu/totnes/eotvos/"", waiting until ""load""
+"
+http://magyar-irodalom.elte.hu/gepesk/wathay/,"Page.goto: Timeout 10000ms exceeded.
+Call log:
+  - navigating to ""http://magyar-irodalom.elte.hu/gepesk/wathay/"", waiting until ""load""
+"
+http://magyar-irodalom.elte.hu/gepesk/zrinyi/,"Page.goto: Timeout 10000ms exceeded.
+Call log:
+  - navigating to ""http://magyar-irodalom.elte.hu/gepesk/zrinyi/"", waiting until ""load""
+"
+http://sermones.elte.hu/erdy/,"Page.goto: Timeout 10000ms exceeded.
+Call log:
+  - navigating to ""http://sermones.elte.hu/erdy/"", waiting until ""load""
+"
