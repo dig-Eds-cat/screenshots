@@ -11,7 +11,7 @@ os.makedirs(out_dir, exist_ok=True)
 df = pd.read_csv("https://raw.githubusercontent.com/dig-Eds-cat/digEds_cat/refs/heads/main/digEds_cat.csv")
 
 MAX_TIMEOUT = 5000
-INGORE_EXISTING = False
+INGORE_EXISTING = True
 
 print("fetching images")
 failed = []
