@@ -13,6 +13,7 @@ os.makedirs(out_dir, exist_ok=True)
 df = pd.read_csv("https://raw.githubusercontent.com/dig-Eds-cat/digEds_cat/refs/heads/main/digEds_cat.csv")
 
 print("fetching images")
+failed = []
 with sync_playwright() as p:
     browser = p.firefox.launch()
     for i, row in df.iterrows():
@@ -21,10 +22,18 @@ with sync_playwright() as p:
             name = f'{row["id"]}.png'
             f_name = os.path.join(out_dir, name)
             print(f"saving screenshot from {url} as {f_name}")
-            page = browser.new_page(viewport={"width": 1200, "height": 800})
-            page.goto(url)
-            page.screenshot(path=f_name)
+            try:
+                page = browser.new_page(viewport={"width": 1200, "height": 800})
+                page.goto(url)
+                page.screenshot(path=f_name)
+            except Exception as e:
+                failed.append({
+                    "url": url,
+                    "error": e
+                })
     browser.close()
+df = pd.DataFrame(failed)
+df.to_csv("failed.csv", index=False)
 
 files = glob.glob(f"{out_dir}/*.png")
 print(f"compressing {len(files)} images")
