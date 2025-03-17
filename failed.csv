@@ -11,11 +11,11 @@ http://ocp.tyndale.ca/,"Page.goto: Timeout 5000ms exceeded.
 Call log:
   - navigating to ""http://ocp.tyndale.ca/"", waiting until ""load""
 "
-http://vbd.humnet.unipi.it,"Page.goto: NS_ERROR_CONNECTION_REFUSED
-Call log:
-  - navigating to ""http://vbd.humnet.unipi.it/"", waiting until ""load""
-"
 https://acdh.oeaw.ac.at/abacus/,"Page.goto: Timeout 5000ms exceeded.
 Call log:
   - navigating to ""https://acdh.oeaw.ac.at/abacus/"", waiting until ""load""
+"
+https://www.digitalcollections.manchester.ac.uk/collections/maryhamilton/,"Page.goto: Timeout 5000ms exceeded.
+Call log:
+  - navigating to ""https://www.digitalcollections.manchester.ac.uk/collections/maryhamilton/"", waiting until ""load""
 "
