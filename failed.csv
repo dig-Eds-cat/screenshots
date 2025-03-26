@@ -1,21 +1,29 @@
 url,error
-http://www.livesandletters.ac.uk/cell/Hooke/Hooke.html,"Page.goto: Timeout 5000ms exceeded.
-Call log:
-  - navigating to ""http://www.livesandletters.ac.uk/cell/Hooke/Hooke.html"", waiting until ""load""
-"
-http://www.math.uni-augsburg.de/stochastik/llull/,"Page.goto: Timeout 5000ms exceeded.
-Call log:
-  - navigating to ""http://www.math.uni-augsburg.de/stochastik/llull/"", waiting until ""load""
-"
-http://ocp.tyndale.ca/,"Page.goto: Timeout 5000ms exceeded.
-Call log:
-  - navigating to ""http://ocp.tyndale.ca/"", waiting until ""load""
-"
-https://acdh.oeaw.ac.at/abacus/,"Page.goto: Timeout 5000ms exceeded.
-Call log:
-  - navigating to ""https://acdh.oeaw.ac.at/abacus/"", waiting until ""load""
-"
-https://www.digitalcollections.manchester.ac.uk/collections/maryhamilton/,"Page.goto: Timeout 5000ms exceeded.
-Call log:
-  - navigating to ""https://www.digitalcollections.manchester.ac.uk/collections/maryhamilton/"", waiting until ""load""
-"
+http://www.ehu.es/galicano/?l=en,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""http://www.ehu.es/galicano/?l=en"", waiting until ""load"""
+http://omacl.org/Heimskringla/,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""http://omacl.org/Heimskringla/"", waiting until ""load"""
+http://www.livesandletters.ac.uk/cell/Hooke/Hooke.html,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""http://www.livesandletters.ac.uk/cell/Hooke/Hooke.html"", waiting until ""load"""
+http://www.folgerdigitaltexts.org/,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""http://www.folgerdigitaltexts.org/"", waiting until ""load"""
+http://www.magicandmedicine.hps.cam.ac.uk/,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""http://www.magicandmedicine.hps.cam.ac.uk/"", waiting until ""load"""
+http://www.math.uni-augsburg.de/stochastik/llull/,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""http://www.math.uni-augsburg.de/stochastik/llull/"", waiting until ""load"""
+http://ocp.tyndale.ca/,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""http://ocp.tyndale.ca/"", waiting until ""load"""
+http://www.abdn.ac.uk/bestiary/,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""http://www.abdn.ac.uk/bestiary/"", waiting until ""load"""
+http://www.sd-editions.com/AnaAdditional/HengwrtEx/images/hgopen.html,"Page.goto: SEC_ERROR_UNKNOWN_ISSUER Call log:   - navigating to ""http://www.sd-editions.com/AnaAdditional/HengwrtEx/images/hgopen.html"", waiting until ""load"""
+http://www.weber-gesamtausgabe.de/en/Index,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""http://www.weber-gesamtausgabe.de/en/Index"", waiting until ""load"""
+http://pom.bbaw.de/cmg/,"Page.goto: SSL_ERROR_BAD_CERT_DOMAIN Call log:   - navigating to ""http://pom.bbaw.de/cmg/"", waiting until ""load"""
+http://edities.kantl.be/loveling/,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""http://edities.kantl.be/loveling/"", waiting until ""load"""
+http://iaa.bibl.u-szeged.hu/index.php,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""http://iaa.bibl.u-szeged.hu/index.php"", waiting until ""load"""
+http://sd-editions.com/AnaAdditional/commediaonline/home.html,"Page.goto: SEC_ERROR_UNKNOWN_ISSUER Call log:   - navigating to ""http://sd-editions.com/AnaAdditional/commediaonline/home.html"", waiting until ""load"""
+http://www.realbiblioteca.es/gomez_manrique/cancionero.html,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""http://www.realbiblioteca.es/gomez_manrique/cancionero.html"", waiting until ""load"""
+http://diglib.hab.de/wdb.php?dir=edoc/ed000228&lang=en,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""http://diglib.hab.de/wdb.php?dir=edoc/ed000228&lang=en"", waiting until ""load"""
+http://senckenberg.ub.uni-frankfurt.de/s/startpage,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""http://senckenberg.ub.uni-frankfurt.de/s/startpage"", waiting until ""load"""
+http://telota.bbaw.de/AvHBriefedition/index.html,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""http://telota.bbaw.de/AvHBriefedition/index.html"", waiting until ""load"""
+http://www.deutschestextarchiv.de/,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""http://www.deutschestextarchiv.de/"", waiting until ""load"""
+http://ta.sandrart.net/de/,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""http://ta.sandrart.net/de/"", waiting until ""load"""
+https://acdh.oeaw.ac.at/abacus/,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""https://acdh.oeaw.ac.at/abacus/"", waiting until ""load"""
+https://edition-humboldt.de/,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""https://edition-humboldt.de/"", waiting until ""load"""
+https://digital.janeaddams.ramapo.edu/,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""https://digital.janeaddams.ramapo.edu/"", waiting until ""load"""
+http://beethovens-werkstatt.de/,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""http://beethovens-werkstatt.de/"", waiting until ""load"""
+http://ps.clul.ul.pt/,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""http://ps.clul.ul.pt/"", waiting until ""load"""
+https://tir.univie.ac.at,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""https://tir.univie.ac.at/"", waiting until ""load"""
+https://www.koenigsfelden.uzh.ch,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""https://www.koenigsfelden.uzh.ch/"", waiting until ""load"""
+https://www.digitalcollections.manchester.ac.uk/collections/maryhamilton/,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""https://www.digitalcollections.manchester.ac.uk/collections/maryhamilton/"", waiting until ""load"""
