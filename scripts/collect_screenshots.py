@@ -36,7 +36,7 @@ for i, row in df.iterrows():
             except Exception as e:
                 failed.append({
                     "url": url,
-                    "error": e
+                    "error": str(e).replace('\n', ' ').replace('\t', ' ').strip()
                 })
                 continue
             browser.close()
