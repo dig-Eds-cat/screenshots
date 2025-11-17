@@ -1,5 +1,5 @@
 url,error
-http://www.livesandletters.ac.uk/cell/Hooke/Hooke.html,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""http://www.livesandletters.ac.uk/cell/Hooke/Hooke.html"", waiting until ""load"""
+http://www.livesandletters.ac.uk/cell/Hooke/Hooke.html,"Unsupported screenshot mime type for path ""screenshots/29.webp"": image/webp"
 http://www.math.uni-augsburg.de/stochastik/llull/,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""http://www.math.uni-augsburg.de/stochastik/llull/"", waiting until ""load"""
 http://ocp.tyndale.ca/,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""http://ocp.tyndale.ca/"", waiting until ""load"""
 http://www.abdn.ac.uk/bestiary/,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""http://www.abdn.ac.uk/bestiary/"", waiting until ""load"""
@@ -10,3 +10,4 @@ http://diglib.hab.de/wdb.php?dir=edoc/ed000228&lang=en,"Page.goto: Timeout 5000m
 https://acdh.oeaw.ac.at/abacus/,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""https://acdh.oeaw.ac.at/abacus/"", waiting until ""load"""
 http://beethovens-werkstatt.de/,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""http://beethovens-werkstatt.de/"", waiting until ""load"""
 https://www.digitalcollections.manchester.ac.uk/collections/maryhamilton/,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""https://www.digitalcollections.manchester.ac.uk/collections/maryhamilton/"", waiting until ""load"""
+https://agriculture-antiquite.huma-num.fr/,"Unsupported screenshot mime type for path ""screenshots/353.webp"": image/webp"
