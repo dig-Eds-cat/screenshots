@@ -1,13 +1,9 @@
 url,error
-http://www.livesandletters.ac.uk/cell/Hooke/Hooke.html,"Unsupported screenshot mime type for path ""screenshots/29.webp"": image/webp"
 http://www.math.uni-augsburg.de/stochastik/llull/,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""http://www.math.uni-augsburg.de/stochastik/llull/"", waiting until ""load"""
 http://ocp.tyndale.ca/,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""http://ocp.tyndale.ca/"", waiting until ""load"""
 http://www.abdn.ac.uk/bestiary/,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""http://www.abdn.ac.uk/bestiary/"", waiting until ""load"""
 http://www.sd-editions.com/AnaAdditional/HengwrtEx/images/hgopen.html,"Page.goto: SEC_ERROR_UNKNOWN_ISSUER Call log:   - navigating to ""http://www.sd-editions.com/AnaAdditional/HengwrtEx/images/hgopen.html"", waiting until ""load"""
-http://edities.kantl.be/loveling/,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""http://edities.kantl.be/loveling/"", waiting until ""load"""
 http://sd-editions.com/AnaAdditional/commediaonline/home.html,"Page.goto: SEC_ERROR_UNKNOWN_ISSUER Call log:   - navigating to ""http://sd-editions.com/AnaAdditional/commediaonline/home.html"", waiting until ""load"""
 http://diglib.hab.de/wdb.php?dir=edoc/ed000228&lang=en,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""http://diglib.hab.de/wdb.php?dir=edoc/ed000228&lang=en"", waiting until ""load"""
 https://acdh.oeaw.ac.at/abacus/,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""https://acdh.oeaw.ac.at/abacus/"", waiting until ""load"""
 http://beethovens-werkstatt.de/,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""http://beethovens-werkstatt.de/"", waiting until ""load"""
-https://www.digitalcollections.manchester.ac.uk/collections/maryhamilton/,"Page.goto: Timeout 5000ms exceeded. Call log:   - navigating to ""https://www.digitalcollections.manchester.ac.uk/collections/maryhamilton/"", waiting until ""load"""
-https://agriculture-antiquite.huma-num.fr/,"Unsupported screenshot mime type for path ""screenshots/353.webp"": image/webp"

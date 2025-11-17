@@ -24,6 +24,8 @@ for i, row in df.iterrows():
             print(f"skipping {f_name}, already exists")
             continue
         print(f"saving screenshot from {url} as {f_name}")
+        # Use PNG as temporary format since Firefox doesn't support WebP screenshots
+        temp_png = f_name.replace('.webp', '.png')
         with sync_playwright() as p:
             browser = p.firefox.launch()
             try:
@@ -32,7 +34,7 @@ for i, row in df.iterrows():
                 page.set_default_navigation_timeout(MAX_TIMEOUT)
                 page.goto(url)
                 page.wait_for_timeout(1500)
-                page.screenshot(path=f_name)
+                page.screenshot(path=temp_png)
             except Exception as e:
                 failed.append({
                     "url": url,
@@ -40,7 +42,9 @@ for i, row in df.iterrows():
                 })
                 continue
             browser.close()
-        with Image.open(f_name) as my_image:
+        # Convert PNG to WebP and clean up
+        with Image.open(temp_png) as my_image:
             my_image.save(f_name, 'webp', quality=80)
+        os.remove(temp_png)
 df = pd.DataFrame(failed)
 df.to_csv("failed.csv", index=False)
